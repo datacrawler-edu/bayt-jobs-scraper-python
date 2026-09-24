@@ -4,7 +4,7 @@ Set `APIFY_API_TOKEN` in your environment first. This synchronous request posts 
 
 ```bash
 curl --request POST \
-  "https://api.apify.com/v2/acts/datascraperes~bayt-jobs-http-scraper/run-sync-get-dataset-items" \
+  "https://api.apify.com/v2/acts/datascraperes~bayt-jobs-data-scraper/run-sync-get-dataset-items" \
   --header "Authorization: Bearer $APIFY_API_TOKEN" \
   --header "Content-Type: application/json" \
   --data @data/sample-input.json

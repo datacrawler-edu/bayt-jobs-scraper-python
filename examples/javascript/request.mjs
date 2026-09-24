@@ -11,7 +11,7 @@ const runInput = JSON.parse(
 );
 
 const client = new ApifyClient({ token });
-const run = await client.actor('datascraperes/bayt-jobs-http-scraper').call(runInput);
+const run = await client.actor('datascraperes/bayt-jobs-data-scraper').call(runInput);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 
 console.log(JSON.stringify(items, null, 2));

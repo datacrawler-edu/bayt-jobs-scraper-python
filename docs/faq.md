@@ -2,7 +2,7 @@
 
 ## Can I run the Actor without Python?
 
-Yes. Open the [hosted Actor](https://apify.com/datascraperes/bayt-jobs-http-scraper?fpr=edudata), enter searches in the **Input** tab, click **Start**, and inspect or export the **Dataset**.
+Yes. Open the [hosted Actor](https://apify.com/datascraperes/bayt-jobs-data-scraper?fpr=edudata), enter searches in the **Input** tab, click **Start**, and inspect or export the **Dataset**.
 
 ## How do I search Bayt jobs by city?
 

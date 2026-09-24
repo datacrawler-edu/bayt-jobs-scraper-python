@@ -4,7 +4,7 @@ Run **Bayt Jobs Scraper | Full Details & Skills** from Apify's web interface wit
 
 This repository contains runnable API examples, a small input, one real Dataset row and a CSV export sample. The job record is copied from a successful run and retains its source values.
 
-[Open Bayt Jobs Scraper on Apify](https://apify.com/datascraperes/bayt-jobs-http-scraper?fpr=edudata)
+[Open Bayt Jobs Scraper on Apify](https://apify.com/datascraperes/bayt-jobs-data-scraper?fpr=edudata)
 
 ## What this repository helps you do
 
@@ -30,7 +30,7 @@ The full Dataset item is in [`data/sample-output.json`](data/sample-output.json)
 
 ## Run without code
 
-1. Open [Bayt Jobs Scraper on Apify](https://apify.com/datascraperes/bayt-jobs-http-scraper?fpr=edudata).
+1. Open [Bayt Jobs Scraper on Apify](https://apify.com/datascraperes/bayt-jobs-data-scraper?fpr=edudata).
 2. In **Input**, add one or more job searches with keywords, country and optional city.
 3. Set the maximum number of unique jobs and whether to fetch details, then click **Start**.
 4. Open **Dataset** after the run and inspect the job rows and any run-status rows.
@@ -119,13 +119,13 @@ See [`docs/faq.md`](docs/faq.md) for answers about input, results and pricing.
 
 The input accepts 1–25 search definitions and a global `maxItems` from 1 to 1,000. `fetchDetails` enables or disables detail-page enrichment. Output is deduplicated by job and can also contain `run_status` records for source coverage.
 
-The Actor charges for each unique job row delivered to the default Dataset. Current per-job prices depend on Apify tier: FREE $0.00100, BRONZE $0.00090, SILVER $0.00080, and GOLD, PLATINUM and DIAMOND $0.00075. That is $1.00, $0.90, $0.80 and $0.75 per 1,000 jobs respectively. Run-status rows, duplicates and results not delivered as job rows are not charged. Check the live [Actor pricing page](https://apify.com/datascraperes/bayt-jobs-http-scraper?fpr=edudata) for the price that applies to your account.
+The Actor charges for each unique job row delivered to the default Dataset. Current per-job prices depend on Apify tier: FREE $0.00100, BRONZE $0.00090, SILVER $0.00080, and GOLD, PLATINUM and DIAMOND $0.00075. That is $1.00, $0.90, $0.80 and $0.75 per 1,000 jobs respectively. Run-status rows, duplicates and results not delivered as job rows are not charged. Check the live [Actor pricing page](https://apify.com/datascraperes/bayt-jobs-data-scraper?fpr=edudata) for the price that applies to your account.
 
 ## Hosted version
 
 Use the hosted Actor to run repeatable keyword and location searches, store each Dataset on Apify and integrate results through the API:
 
-[Open Bayt Jobs Scraper on Apify](https://apify.com/datascraperes/bayt-jobs-http-scraper?fpr=edudata)
+[Open Bayt Jobs Scraper on Apify](https://apify.com/datascraperes/bayt-jobs-data-scraper?fpr=edudata)
 
 ## Responsible use
 

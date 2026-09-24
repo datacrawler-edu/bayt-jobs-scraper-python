@@ -2,21 +2,21 @@
   "repository": {
     "name": "bayt-jobs-scraper-python",
     "description": "Python, JavaScript and cURL examples for searching public Bayt jobs through the Apify Actor.",
-    "homepage": "https://apify.com/datascraperes/bayt-jobs-http-scraper?fpr=edudata",
+    "homepage": "https://apify.com/datascraperes/bayt-jobs-data-scraper?fpr=edudata",
     "language": "Python",
     "license": "MIT"
   },
   "actor": {
     "displayName": "Bayt Jobs Scraper | Full Details & Skills",
-    "id": "datascraperes/bayt-jobs-http-scraper",
-    "storeUrl": "https://apify.com/datascraperes/bayt-jobs-http-scraper",
-    "apiBaseUrl": "https://api.apify.com/v2/acts/datascraperes~bayt-jobs-http-scraper",
+    "id": "datascraperes/bayt-jobs-data-scraper",
+    "storeUrl": "https://apify.com/datascraperes/bayt-jobs-data-scraper",
+    "apiBaseUrl": "https://api.apify.com/v2/acts/datascraperes~bayt-jobs-data-scraper",
     "description": "Search public Bayt job listings by keyword, country and optional city, with structured job details when available."
   },
   "affiliate": {
     "enabled": true,
     "parameter": "fpr=edudata",
-    "actorUrl": "https://apify.com/datascraperes/bayt-jobs-http-scraper?fpr=edudata",
+    "actorUrl": "https://apify.com/datascraperes/bayt-jobs-data-scraper?fpr=edudata",
     "pricingUrl": "https://apify.com/pricing?fpr=edudata"
   },
   "platform": {
@@ -108,7 +108,7 @@
   "distribution": {
     "githubUrl": "https://github.com/datacrawler-edu/bayt-jobs-scraper-python",
     "actorToGithubUrl": "https://github.com/datacrawler-edu/bayt-jobs-scraper-python",
-    "githubToActorUrl": "https://apify.com/datascraperes/bayt-jobs-http-scraper?fpr=edudata",
+    "githubToActorUrl": "https://apify.com/datascraperes/bayt-jobs-data-scraper?fpr=edudata",
     "organizationHubUrl": "https://github.com/datacrawler-edu",
     "firstRelease": {
       "tag": "v0.1.0",
@@ -142,6 +142,6 @@
   },
   "support": {
     "issuesUrl": "https://github.com/datacrawler-edu/bayt-jobs-scraper-python/issues",
-    "actorSupportUrl": "https://apify.com/datascraperes/bayt-jobs-http-scraper?fpr=edudata"
+    "actorSupportUrl": "https://apify.com/datascraperes/bayt-jobs-data-scraper?fpr=edudata"
   }
 }

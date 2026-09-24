@@ -10,7 +10,7 @@ from apify_client import ApifyClient
 
 ROOT = Path(__file__).resolve().parents[2]
 INPUT_PATH = ROOT / "data" / "sample-input.json"
-ACTOR_ID = "datascraperes/bayt-jobs-http-scraper"
+ACTOR_ID = "datascraperes/bayt-jobs-data-scraper"
 
 
 def main() -> None:

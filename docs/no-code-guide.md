@@ -1,6 +1,6 @@
 # Run Bayt Jobs Scraper without code
 
-Open [Bayt Jobs Scraper](https://apify.com/datascraperes/bayt-jobs-http-scraper?fpr=edudata) and use its **Input** tab.
+Open [Bayt Jobs Scraper](https://apify.com/datascraperes/bayt-jobs-data-scraper?fpr=edudata) and use its **Input** tab.
 
 ## Step-by-step
 
@@ -25,4 +25,4 @@ A job row has `recordType=job`. Check `jobTitle`, `jobCompany`, `jobLocation` an
 
 ## Larger runs and billing
 
-You can enter up to 25 searches and set a global cap up to 1,000 unique jobs. The Actor charges per unique job row delivered; the per-item price varies with Apify tier. Consult the live [Actor pricing page](https://apify.com/datascraperes/bayt-jobs-http-scraper?fpr=edudata). Source availability varies by search and time, so the requested cap is a maximum, not a promise that every run will return that many rows.
+You can enter up to 25 searches and set a global cap up to 1,000 unique jobs. The Actor charges per unique job row delivered; the per-item price varies with Apify tier. Consult the live [Actor pricing page](https://apify.com/datascraperes/bayt-jobs-data-scraper?fpr=edudata). Source availability varies by search and time, so the requested cap is a maximum, not a promise that every run will return that many rows.
