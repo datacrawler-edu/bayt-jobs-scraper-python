@@ -1,0 +1,39 @@
+[
+  {
+    "recordType": "job",
+    "success": true,
+    "status": "ok",
+    "source": "bayt",
+    "searchUrl": "https://www.bayt.com/en/uae/jobs/software-engineer-jobs-in-dubai/",
+    "jobId": "5483309",
+    "jobTitle": "Automation Tester",
+    "jobLink": "https://www.bayt.com/en/uae/jobs/automation-tester-5483309/",
+    "jobSalary": null,
+    "jobType": null,
+    "jobCareerLevel": null,
+    "jobCompanyLogo": "https://secure.b8cdn.com/70x70/images/logo/58/1542258_logo_1781525935_n.png",
+    "jobCompany": "Cognizant",
+    "jobLocation": "Dubai, UAE",
+    "jobDescription": "Hiring: Automation Tester | UAE We are looking for an experienced Automation Tester to join our team and drive quality engineering across web, mobile, and API platforms. Key Responsibilities Design, develop, and execute test plans and test cases based on requirements Perform functional, regression, integration, and system testing using automated scripts Participate in Agile/Scrum ceremonies, including sprint planning and retrospectives Provide detailed test reports and quality metrics to stakeholders Identify, document, and track defects using tools like Azure DevOps, JIRA, etc.",
+    "jobDescriptionHtml": "<div data-jb-field=\"description\">\n<p><b>Hiring: Automation Tester | UAE</b></p><p>We are looking for an experienced <b>Automation Tester</b> to join our team and drive quality engineering across web, mobile, and API platforms.</p><p><br/></p><p><br/></p><p>Key Responsibilities</p><ul><li>Design, develop, and execute test plans and test cases based on requirements</li><li>Perform functional, regression, integration, and system testing using automated scripts</li><li>Participate in Agile/Scrum ceremonies, including sprint planning and retrospectives</li><li>Provide detailed test reports and quality metrics to stakeholders</li><li>Identify, document, and track defects using tools like Azure DevOps, JIRA, etc.</li></ul><p><br/></p> </div>",
+    "jobSkills": [
+      "Minimum 8+ years of overall experience in automation testing",
+      "Strong hands-on experience in UI, Mobile App, and API automation",
+      "Selenium: Minimum 5 years (Mandatory)",
+      "Appium: Minimum 2 years (Mandatory)",
+      "Experience in API automation testing",
+      "Exposure to AccelQ is an added advantage",
+      "Minimum 3+ years of experience in Website/UI and eCommerce mobile app testing (Mandatory)",
+      "Experience working with CI/CD pipelines",
+      "Exposure to Airline domain is a plus"
+    ],
+    "preferredCandidate": null,
+    "jobCreatedAt": "9 days ago",
+    "jobValidThrough": null,
+    "jobApplyUrl": "https://www.bayt.com/en/job/apply/index/5483309/",
+    "detailStatus": "success",
+    "scrapedAt": "2026-09-24T17:41:09.873960+00:00",
+    "errorType": null,
+    "page": 1
+  }
+]

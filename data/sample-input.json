@@ -1,0 +1,11 @@
+{
+  "searches": [
+    {
+      "keywords": "software engineer",
+      "country": "uae",
+      "city": "Dubai"
+    }
+  ],
+  "maxItems": 5,
+  "fetchDetails": true
+}

@@ -1,0 +1,147 @@
+{
+  "repository": {
+    "name": "bayt-jobs-scraper-python",
+    "description": "Python, JavaScript and cURL examples for searching public Bayt jobs through the Apify Actor.",
+    "homepage": "https://apify.com/datascraperes/bayt-jobs-http-scraper?fpr=edudata",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "actor": {
+    "displayName": "Bayt Jobs Scraper | Full Details & Skills",
+    "id": "datascraperes/bayt-jobs-http-scraper",
+    "storeUrl": "https://apify.com/datascraperes/bayt-jobs-http-scraper",
+    "apiBaseUrl": "https://api.apify.com/v2/acts/datascraperes~bayt-jobs-http-scraper",
+    "description": "Search public Bayt job listings by keyword, country and optional city, with structured job details when available."
+  },
+  "affiliate": {
+    "enabled": true,
+    "parameter": "fpr=edudata",
+    "actorUrl": "https://apify.com/datascraperes/bayt-jobs-http-scraper?fpr=edudata",
+    "pricingUrl": "https://apify.com/pricing?fpr=edudata"
+  },
+  "platform": {
+    "apifyFreePlan": {
+      "monthlyPrepaidUsage": "$5",
+      "renewsMonthly": true,
+      "noCreditCardRequired": true,
+      "unusedCreditsExpire": true,
+      "sourceUrl": "https://apify.com/pricing?fpr=edudata"
+    }
+  },
+  "interfaces": {
+    "web": {
+      "enabled": true,
+      "inputTab": "Input",
+      "outputTab": "Dataset",
+      "runAction": "Start",
+      "primaryInput": "searches",
+      "inputLabel": "Job searches",
+      "inputSummary": "Enter job titles or skills, then select a Bayt country and optional city.",
+      "exportFormats": [
+        "JSON",
+        "CSV",
+        "Excel"
+      ]
+    },
+    "api": {
+      "enabled": true,
+      "examples": [
+        "cURL",
+        "Python",
+        "JavaScript"
+      ]
+    }
+  },
+  "seo": {
+    "primaryKeyword": "Bayt jobs scraper Python",
+    "secondaryKeywords": [
+      "Bayt jobs API",
+      "Bayt job listings dataset",
+      "scrape Bayt jobs with Python",
+      "Bayt jobs CSV export"
+    ],
+    "topics": [
+      "bayt",
+      "jobs",
+      "job-listings",
+      "apify",
+      "python",
+      "web-scraping",
+      "recruiting-data"
+    ],
+    "longTailIntents": [
+      "How to search Bayt jobs by keyword and city with the Apify API",
+      "How to export Bayt job listings to CSV with Python",
+      "How to collect job descriptions and skills from Bayt"
+    ]
+  },
+  "content": {
+    "readmeSectionOrder": [
+      "What this repository helps you do",
+      "Example result",
+      "Run without code",
+      "Try it with Apify's free plan",
+      "Quick start for developers",
+      "Input example",
+      "Request examples",
+      "Output fields",
+      "Common use cases",
+      "Long-tail use-case sections",
+      "FAQ",
+      "Limits and pricing",
+      "Hosted version",
+      "Responsible use",
+      "Support"
+    ],
+    "exampleFiles": [
+      "examples/python/request.py",
+      "examples/python/export_jobs_csv.py",
+      "examples/javascript/request.mjs"
+    ],
+    "faqFile": "docs/faq.md"
+  },
+  "pricing": {
+    "summary": "Pay per unique job record delivered to the Dataset. The per-job price depends on the Apify account tier.",
+    "unit": "one unique job record delivered",
+    "price": "$0.75-$1.00 per 1,000 jobs, depending on Apify tier"
+  },
+  "distribution": {
+    "githubUrl": "https://github.com/datacrawler-edu/bayt-jobs-scraper-python",
+    "actorToGithubUrl": "https://github.com/datacrawler-edu/bayt-jobs-scraper-python",
+    "githubToActorUrl": "https://apify.com/datascraperes/bayt-jobs-http-scraper?fpr=edudata",
+    "organizationHubUrl": "https://github.com/datacrawler-edu",
+    "firstRelease": {
+      "tag": "v0.1.0",
+      "title": "Initial public Bayt jobs examples"
+    }
+  },
+  "examples": {
+    "inputFile": "data/sample-input.json",
+    "outputFile": "data/sample-output.json",
+    "csvFile": "data/sample-output.csv"
+  },
+  "measurement": {
+    "observationWindowDays": 30,
+    "githubSignals": [
+      "views",
+      "uniqueVisitors",
+      "clones",
+      "referrers",
+      "popularContent"
+    ],
+    "apifySignals": [
+      "users",
+      "runs",
+      "datasetItems",
+      "revenue"
+    ],
+    "searchChecks": [
+      "site:github.com/datacrawler-edu/bayt-jobs-scraper-python",
+      "Bayt jobs scraper Python"
+    ]
+  },
+  "support": {
+    "issuesUrl": "https://github.com/datacrawler-edu/bayt-jobs-scraper-python/issues",
+    "actorSupportUrl": "https://apify.com/datascraperes/bayt-jobs-http-scraper?fpr=edudata"
+  }
+}
